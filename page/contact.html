@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<body class="min-h-screen flex flex-col bg-gray-100">
+
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold">GenZ Store</div>
+
+            <div class="space-x-4">
+                <a href="../home.html" class="hover:text-yellow-300">Home</a>
+                <a href="../page/product.html" class="hover:text-yellow-300">Products</a>
+                <a href="../page/about.html" class="hover:text-yellow-300">About</a>
+                <a href="../page/contact.html" class="hover:text-yellow-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-16 bg-gray-200 text-indigo-700">
+        <div class="container mx-auto text-center">
+            <h1 class="text-6xl md:text-7xl font-extrabold mb-4 tracking-tight">
+            GET IN TOUCH WITH 
+            </h1>
+            <h1 class="text-6xl md:text-7xl font-extrabold mb-4 tracking-tight text-pink-500">
+               GenZ Store
+            </h1>
+            <p class="text-xl mb-8 text-gray-700">
+            We’d love to hear from you — drop us a message <br> and stay connected with the latest trends!
+            </p>
+            <a href="#contact-form" class="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-3 rounded-full shadow-lg hover:from-purple-600 hover:to-pink-500 transition duration-300">
+            Contact Us
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Main Content -->
+    <main class="flex-grow flex items-center justify-center p-6">
+
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden max-w-5xl w-full grid md:grid-cols-2">
+
+            <!-- Left Section -->
+            <div class="bg-indigo-700 text-white flex flex-col items-center justify-center p-10">
+
+                <div class="w-32 h-32 bg-white rounded-full flex items-center justify-center mb-8">
+                    <img src="https://copilot.microsoft.com/th/id/BCO.e5597b0b-370e-40ff-b0d6-f7a9d869c1ed.png"
+                         alt="Logo"
+                         class="object-contain">
+                </div>
+
+                <h2 class="text-3xl font-semibold mb-4">
+                    Get in touch with us
+                </h2>
+
+                <p class="text-center text-gray-200 mb-12">
+                    Please send us a little more detail so we can help you.
+                </p>
+
+                <div class="space-y-8">
+
+                    <div class="flex items-center gap-4">
+                        <span>📧</span>
+                        <span>info@genzstore.com</span>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <span>📞</span>
+                        <span>+855 123456789</span>
+                    </div>
+
+                    <div class="flex items-center gap-4">
+                        <span>📍</span>
+                        <span>Phnom Penh, Cambodia</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Section -->
+            <div class="p-10 md:p-14 bg-indigo-100">
+
+                <h2 class="text-4xl font-bold text-gray-700 mb-2">
+                    Contact Us
+                </h2>
+
+                <p class="text-gray-400 mb-8">
+                    Let's send us a message
+                </p>
+
+                <form class="space-y-5">
+
+                    <div>
+                        <label class="block text-gray-600 mb-2">
+                            Full Name
+                        </label>
+                        <input
+                            type="text"
+                            placeholder="Enter your full name"
+                            class="w-full rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#4F5D46]">
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-600 mb-2">
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            placeholder="Enter your email"
+                            class="w-full rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#4F5D46]">
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-600 mb-2">
+                            Message
+                        </label>
+                        <textarea
+                            rows="4"
+                            placeholder="Enter your message"
+                            class="w-full rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#4F5D46]"></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="w-full inline-block bg-indigo-600 text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:bg-yellow-300 hover:text-black transition duration-300">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-indigo-600 text-white py-4">
+        <div class="container mx-auto">
+            <p class="text-center">
+                &copy; 2025 Clothes Store. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

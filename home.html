@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes Store</title>
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto">
+            <div class="flex justify-between items-center">
+                <div class="text-xl font-bold">Gen Z Store</div>
+                <div class="space-x-4">
+                    <a href="./home.html" class="hover:text-yellow-300">Home</a>
+                    <a href="./page/product.html" class="hover:text-yellow-300">Products</a>
+                    <a href="./page/about.html" class="hover:text-yellow-300">About</a>
+                    <a href="./page/contact.html" class="hover:text-yellow-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Image -->
+    <section class="bg-gray-50 py-16">
+        <div class="container mx-auto flex flex-col md:flex-row items-center text-center md:text-left">
+            
+            <!-- Text Content -->
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-6xl font-extrabold text-indigo-700 mb-4">
+                    DISCOVER YOUR STYLE AT<span class="text-pink-500"> GenZ Store</span>
+                </h1>
+                <p class="text-lg text-gray-700 mb-6">
+                    Trendy, affordable fashion made for teens and young adults. Express yourself with outfits that match your vibe.
+                </p>
+                <a href="./page/product.html" class="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-3 rounded-full shadow-lg hover:from-purple-600 hover:to-pink-500 transition duration-300">
+                    Shop Now
+                </a>
+            </div>
+
+            <!-- Image Content -->
+            <div class="md:w-1/2 flex justify-center">
+            <img src="https://genz-s.com/cdn/shop/files/dwayne-joe-0qgJqosw_PI-unsplash.jpg?v=1762257095&width=1600" alt="GenZ fashion" class="rounded-xl shadow-2xl max-h-[450px] object-cover">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Our Clothes Store</h1>
+            <p class="text-lg mb-8">Discover the latest trends in fashion!</p>
+            <a href="./page/products.html" class="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+     <section class="py-12">
+        <div class="container mx-auto max-w-7xl mx-auto p-5">
+            <h2 class="text-3xl font-bold mb-8 text-center">Popular Products</h2>
+            <!-- Product Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- card 1 -->
+                <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transform transition duration-500 hover:scale-105">
+                    <img class="w-full h-100 object-cover" src="https://i.pinimg.com/736x/78/fe/a3/78fea3821d15bfe36f78344c6ec11c26.jpg" alt="T-Shirt">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-gray-800 mb-2">Classic T-Shirt</h2>
+                        <p class="text-gray-600 mb-4">
+                        Soft cotton T-shirt with a relaxed fit. Available in multiple colors.
+                        </p>
+                        <div class="flex items-center justify-between">
+                        <span class="text-lg font-semibold text-indigo-600">$19.99</span>
+                        <button class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition">
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+    
+                <!-- card 2 -->
+                <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transform transition duration-500 hover:scale-105">
+                    <img src="https://down-ph.img.susercontent.com/file/cn-11134208-7ras8-m795el42u12a33" alt="Product Image" class="w-full h-100 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-gray-800 mb-2">Classic T-Shirt</h2>
+                        <p class="text-gray-600 mb-4 clame-line-2">
+                        Soft cotton T-shirt with a relaxed fit. Available in multiple colors.
+                        </p>
+                        <div class="flex items-center justify-between">
+                        <span class="text-lg font-semibold text-indigo-600">$19.99</span>
+                        <button class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition">
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                </div>
+
+    
+                <!-- card 3 -->
+                <div class="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transform transition duration-500 hover:scale-105">
+                    <img src="https://media.karousell.com/media/photos/products/2023/1/15/plain_black_t_shirt_1673760760_a01178b3_progressive.jpg" alt="Product Image" class="w-full h-100 object-cover">
+                    <div class="p-6">
+                        <h2 class="text-xl font-bold text-gray-800 mb-2">Classic T-Shirt</h2>
+                        <p class="text-gray-600 mb-4">
+                        Soft cotton T-shirt with a relaxed fit. Available in multiple colors.
+                        </p>
+                        <div class="flex items-center justify-between">
+                        <span class="text-lg font-semibold text-indigo-600">$19.99</span>
+                        <button class="bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 transition">
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics of Section -->
+    <section class="py-16 bg-gray-100 max-w-7xl mx-auto p-5 rounded-3xl mb-16">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold text-indigo-600">1000+</h3>
+                    <p class="text-gray-600">Happy Customers</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold text-indigo-600">50+</h3>
+                    <p class="text-gray-600">Products Available</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold text-indigo-600">10+</h3>
+                    <p class="text-gray-600">Years of Experience</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold text-indigo-600">24/7</h3>
+                    <p class="text-gray-600">Customer Support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="grid grid-cols-4 gap-5 max-w-7xl mx-auto p-5">
+        <!-- Winter Collection -->
+        <div class="relative col-span-2 h-48 rounded-3xl overflow-hidden">
+            <img src="https://www.glam.com/img/gallery/tips-for-styling-a-clothing-rack-for-the-perfect-aesthetic/l-intro-1678394165.jpg"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/30">
+                <h2 class="text-3xl font-bold text-white">
+                    Winter Collection
+                </h2>
+            </div>
+        </div>
+
+        <!-- Pants -->
+        <div class="relative row-span-2 h-[420px] rounded-3xl overflow-hidden">
+            <img src="https://oldnavy.gap.com/webcontent/0053/306/170/cn53306170.jpg"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2 class="text-3xl font-bold text-white">
+                    Pants
+                </h2>
+            </div>
+        </div>
+
+        <!-- Skirts -->
+        <div class="relative row-span-2 h-[420px] rounded-3xl overflow-hidden">
+            <img src="https://i.pinimg.com/originals/1e/e7/18/1ee71809038ea892c9384d62596b4637.jpg"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2 class="text-3xl font-bold text-white">
+                    Skirts
+                </h2>
+            </div>
+        </div>
+
+        <!-- Shoes -->
+        <div class="relative col-span-2 h-48 rounded-3xl overflow-hidden">
+            <img src="https://cdn.mos.cms.futurecdn.net/TSDBLC4aye7F9p73BUJuA9.jpg"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2 class="text-3xl font-bold text-white">
+                    Shoes
+                </h2>
+            </div>
+        </div>
+
+        <!-- T-Shirts -->
+        <div class="relative h-[420px] rounded-3xl overflow-hidden">
+            <img src="https://down-ph.img.susercontent.com/file/cn-11134208-7ras8-m795el42u12a33"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2 class="text-3xl font-bold text-white">
+                    T-Shirts
+                </h2>
+            </div>
+        </div>
+
+        <!-- Dresses -->
+        <div class="relative h-[420px] rounded-3xl overflow-hidden">
+            <img src="https://n.nordstrommedia.com/it/e91ed5da-52a2-4479-9590-dcfd587ae611.jpeg?h=368&w=240&dpr=2"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2 class="text-3xl font-bold text-white">
+                    Dresses
+                </h2>
+            </div>
+        </div>
+
+        <!-- Jackets -->
+        <div class="relative row-span-4 col-span-2 h-[420px] rounded-3xl overflow-hidden">
+            <img src="https://down-id.img.susercontent.com/file/id-11134201-23030-pz726z1ig9nv47.jpg"
+                class="w-full h-full object-cover">
+
+            <div class="absolute inset-0 flex items-center justify-center bg-black/20">
+                <h2 class="text-3xl font-bold text-white">
+                    Jackets
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-20 bg-gradient-to-b from-gray-50 to-gray-100 max-w-7xl mx-auto p-5 rounded-3xl mb-16">
+        <div class="container mx-auto px-6">
+            
+            <!-- Title -->
+            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-14">
+                Why Choose Us?
+            </h2>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center group">
+                    <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-indigo-100 group-hover:bg-indigo-600 transition">
+                        <svg class="w-8 h-8 text-indigo-600 group-hover:text-white transition" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 15l-5-5h10l-5 5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">High Quality</h3>
+                    <p class="text-gray-500">
+                        We deliver premium quality products that meet international standards.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center group">
+                    <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-indigo-100 group-hover:bg-indigo-600 transition">
+                        <svg class="w-8 h-8 text-indigo-600 group-hover:text-white transition" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 1l3 7h7l-5.5 4.5L18 20l-6-4-6 4 1.5-7.5L2 8h7l3-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Best Value</h3>
+                    <p class="text-gray-500">
+                        Competitive pricing that gives you maximum value for your money.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center group">
+                    <div class="w-16 h-16 mx-auto mb-5 flex items-center justify-center rounded-full bg-indigo-100 group-hover:bg-indigo-600 transition">
+                        <svg class="w-8 h-8 text-indigo-600 group-hover:text-white transition" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C8 2 5 5 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Fast Delivery</h3>
+                    <p class="text-gray-500">
+                        Quick and reliable delivery service right to your doorstep.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Discount Section -->
+    <section class="py-20 bg-indigo-100 text-indigo-700">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">
+            Special Offer Just for You!
+        </h2>
+        <p class="text-lg md:text-xl mb-6 opacity-90">
+           Get <span class="font-bold text-yellow-300">20% OFF</span> on your first order.
+        </p>
+        <div class="bg-white py-3 text-purple-700 font-bold inline-block px-6 rounded-full shadow-md mb-8">
+            Code: WELCOME20
+        </div>
+        <a href="#products" class="bg-indigo-500 text-white font-semibold py-3 px-6 rounded-full shadow-lg hover:bg-white hover:text-pink-600 transition duration-300">
+            Shop Now
+        </a>
+    </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-indigo-600 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Clothes Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
